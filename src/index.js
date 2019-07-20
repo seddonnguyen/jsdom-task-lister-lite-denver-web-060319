@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let element = document.getElementById('tasks')
     let listItem = document.createElement('li')
-    listItem.innerHTML = newTaskDescription.value
+    listItem.innerText = newTaskDescription.value
     element.appendChild(listItem)
   });
 });
